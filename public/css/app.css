@@ -1,0 +1,503 @@
+body{
+	background-color: #e9eaed;
+	font-size: 16px;
+	font-family: 'Questrial', sans-serif;
+}
+
+a{
+	color: #2dc3e8;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+@media (max-width: 992px){
+	.profile{
+		margin-bottom: 25px;
+	}
+
+	.sidebar{
+		display: none;
+	}
+}
+
+.MessagesFriendListXM{
+    width: 100%;
+    overflow: visible;
+    display: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.MessagesFriendListXM .slide {
+    display: inline-block;
+}
+
+@media (max-width: 767px){
+	.MessagesFriendListXM{
+		display: block;
+	}
+
+	.MessagesFriendListBig{
+		display: none;
+	}
+}
+
+@media (min-width: 768px){
+	.MessagesFriendList{
+		max-height: 600px;
+		overflow-y: scroll;
+	}
+}
+
+.img-center{
+	display: block;
+	margin: 0 auto;
+}
+
+.margin-top{
+	margin-top: 15px;
+}
+
+.margin-bottom: {
+	margin-bottom: 15px;
+}
+
+.pointer{
+	cursor: pointer;
+}
+
+.darker_link{
+	color: #337ab7;
+}
+
+.orange_link{
+	color: #e59400;
+}
+
+.red_link{
+	color: #b30000;
+}
+
+.green_link{
+	color: #006600;
+}
+
+.btn-signature{
+	background-color: #2dc3e8;
+	border-color: #2dc3e8;
+	color: #FFF;
+}
+
+.navbar-default{
+	z-index: 9999;
+	background-color: #FFF;
+	height: 75px;
+	border-bottom: 1px solid #e7e7e7;
+}
+
+.navbar-default .navbar-brand{
+	font-size: 48px;
+	font-family: 'Just Another Hand', cursive;
+}
+
+.timeline .profile{
+	background-color: #fbfbfb;
+	padding: 12px;
+	padding-bottom: 15px;
+}
+
+.timeline .profile .profile-img{
+	background-color: #2dc3e8;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	padding: 40px;
+}
+
+.timeline .profile .profile-img p{
+	margin-top: 15px;
+	color: #FFF;
+	font-size: 22px;
+	font-family: 'Lato', sans-serif;
+}
+
+.timeline .profile .profile-img a{
+	border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border: 10px solid rgba(255,255,255,0.3);
+    display: inline-block;
+}
+
+.timeline .profile .links{
+	font-family: 'Lato', sans-serif;
+	background-color: #ebeae6;
+	padding-bottom: 1px;
+	font-size: 14px;
+}
+
+.timeline .profile .links i{
+	margin-left: 3px;
+	margin-right: 8px;
+}
+
+.timeline .profile .nav-pills>li:hover{
+	border-color: #2dc3e8;
+}
+
+.timeline .profile  ul > li {
+	line-height: 30px;
+	border-left: 5px solid;
+	border-color: transparent;
+	border-radius: 0;
+	background-color: #f8f7f5;
+	color: #bcb3aa;
+}
+
+.timeline .profile .nav-pills > li.active > a{
+	background-color: #f8f7f5;
+	color: #8e8684;
+}
+
+.timeline .profile .nav-pills > li.active{
+	border-color: #2dc3e8;
+}
+
+.timeline .feed .progress{
+	border-radius: 0px;
+}
+
+.timeline .feed .progress-bar{
+	background-color: #2dc3e8;
+}
+
+.timeline .feed form{
+	margin-bottom: 20px;
+}
+
+.timeline .feed .panel form{
+	margin-bottom: 0px;
+}
+
+.timeline .feed textarea{
+	border-radius: 0;
+	font-size: 18px;
+	border:0;
+	border-bottom: 1px solid #d8d9dc;
+}
+
+.timeline .feed .textareaOptions{
+	background-color: #f5f5f5;
+	overflow: auto;
+	padding: 10px;
+	border-bottom: 1px solid #d8d9dc;
+}
+
+.timeline .feed .textareaOptions li{
+	display:inline-block;
+	list-style: none;
+	margin-left: 8px;
+	margin-top: 5px;
+	margin-right: 15px;
+	color: #bcb3aa;
+}
+
+.posts{
+	margin-bottom: 30px;
+}
+
+.posts .panel{
+	border: 0;
+	background-color: #FFF;
+	border-bottom: 1px solid #d8d9dc;
+}
+
+.posts .panel-heading{
+	border-radius: 0;
+	border-top:3px solid #2dc3e8;
+	border-bottom: 1px solid #f4f4f4;
+	overflow: auto;
+}
+
+.posts .panel-heading .info{
+	margin-left: 60px;
+	display: block;
+}
+
+.posts .panel-heading button, .panel-footer .media-body button{
+	border:none;
+	background-color: transparent;
+}
+
+.posts .panel-body span{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.posts .panel-footer .media{
+	font-size: 16px;
+	margin-top:5px;
+	margin-bottom: 15px;
+}
+
+.posts .panel-footer .media a{
+	font-size:16px;
+}
+
+.sidebar .panel .panel-heading{
+	font-size: 14px;
+	background-color: #FFF;
+	border-bottom: 3px solid #2dc3e8;
+}
+
+.sidebar .userresult p{
+	margin-left: 15px;
+	margin-top: 7px;
+}
+
+
+#Profile{
+}
+
+
+#Profile .cover{
+	background-color: #FFF;
+	padding:0;
+	border:1px solid #e2e9e6;
+	margin-bottom: 20px;
+	height: 100%;
+	overflow: auto;
+}
+
+#Profile .fb-profile .fb-profile-text{
+	background-color: #FFF;
+}
+
+#Profile .fb-profile .nav-pills{
+}
+
+#Profile .fb-profile .nav-pills li{
+	margin: 0;
+	padding: 8px 10px;
+	border-right: 1px solid #e2e9e6;
+    border-left: 1px solid transparent;
+}
+
+#Profile .fb-profile .nav-pills li a:hover{
+	background-color: #FFF;
+	color: #6c6c6c;
+}
+
+#Profile .fb-profile .nav-pills li a{
+	color: #e4e4e4;
+}
+
+#Profile .fb-profile .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+	background-color: #FFF;
+	color: #6c6c6c;
+}
+
+#Profile .friend{
+	background-color: #FFF;
+	padding: 25px;
+	margin-bottom: 25px;
+}
+
+#Profile .friend p{
+	text-align: center;
+	font-size: 24px;
+}
+
+#Profile .friend img{
+	height: 85px;
+	display: block;
+	margin:0 auto;
+	margin-bottom: 35px; 
+}
+
+.fb-profile img.fb-image-lg{
+    z-index: 0;
+    width: 100%;  
+}
+
+#Profile .fb-profile .fb-profile-text span{
+	font-size: 26px;
+	margin-top: 15px !important;
+}
+
+.fb-profile .thumbnail{
+	border-radius: 0;
+}
+
+.fb-image-profile
+{
+    margin: -60px 10px 0px 50px;
+    z-index: 9;
+    width: 20%; 
+}
+
+@media (max-width:768px)
+{
+    
+.fb-profile-text>h1{
+    font-weight: 700;
+    font-size:16px;
+}
+
+.fb-image-profile
+{
+    margin: 0;
+    z-index: 9;
+    width: 20%; 
+}
+}
+.modal {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+
+.Events{
+	background-color: #FFF;
+}
+
+.Events input{
+}
+
+.Messages .MessagesFriendListBig img, .MessagesFriendListXM img{
+	padding: 3px;
+	border: thin solid #2dc3e8;
+	height: 50px;
+}
+
+.Messages .MessagesFriendListXM img{
+	margin-bottom: 3px;
+}
+
+.MessagesFriendListBig .row{
+	border-left: 4px solid #2dc3e8;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-bottom: 4px;
+	background: #FFF;
+}
+
+.Messages .offline{
+	border-color: #AAA;
+}
+
+.MessagesFriendListBig .offline img{
+	border-color: #AAA;
+}
+
+.MessagesFriendListBig .row .col-sm-9 p{
+	margin-top: 14px !important;
+}
+
+.Messages .chat
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 594px;
+    overflow-y: scroll;
+}
+
+.Messages .chat li
+{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #B3A9A9;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Messages .chat li.left .chat-body
+{
+    margin-left: 60px;
+}
+
+.Messages .chat li.right .chat-body
+{
+    margin-right: 60px;
+}
+
+
+.Messages .chat li .chat-body p
+{
+    margin: 0;
+    color: #777777;
+}
+
+.Messages .panel .slidedown .glyphicon, .chat .glyphicon
+{
+    margin-right: 5px;
+}
+
+.Messages .chat img{
+	height: 50px;
+}
+
+.Messages .chat a{
+	color: #000 !important;
+}
+
+.Messages .chat .chatTextbox{
+}
+
+.Messages .panel-body
+{
+    overflow-y: scroll;
+    height: 250px;
+}
+
+.Messages .MessagesFriendListBig .row, .MessagesFriendListXM .slide{
+	-webkit-transition: all 198ms ease;
+	-moz-transition: all 198ms ease;
+	-ms-transition: all 198ms ease;
+	-o-transition: all 198ms ease;
+	transition: all 198ms ease;
+}
+
+.Messages .MessagesFriendListBig .row:hover{
+	cursor: pointer;
+	background: rgba(45,195,232, 0.3);
+}
+
+.Messages .MessagesFriendListBig .active{
+	background: rgba(45,195,232, 0.3);
+}
+
+.Messages .MessagesFriendListXM .active{
+	background: rgba(45,195,232, 0.3);
+}
+
+.Messages .MessagesFriendListXM .slide img:hover{
+	cursor: pointer;
+	border-color: #000;
+}
+
+
+footer{
+	margin-top: 170px;
+	text-align: center;
+	overflow: auto;
+	padding-top: 25px;
+	padding-bottom: 20px;
+	border-top:2px solid #2dc3e8;
+}
